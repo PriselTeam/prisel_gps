@@ -1,0 +1,1 @@
+Prisel.GPS.Config = Prisel.GPS.Config or {}
