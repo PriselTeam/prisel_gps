@@ -10,11 +10,6 @@ IncludeAdd("config.lua")
 
 if SERVER then
     AddLuaFile("client/cl_functions.lua")
-    AddLuaFile("client/cl_hooks.lua")
-
 elseif CLIENT then
-    
     IncludeAdd("client/cl_functions.lua")
-    IncludeAdd("client/cl_hooks.lua")
-
 end
